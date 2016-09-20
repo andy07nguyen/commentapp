@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #18ac8e;
+	margin-top: -415px;
+}
+
+h1.appName {
+	position: relative;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;	
+	top: 570px;
+}
+
+input#userInfo {
+	position: relative;
+	width: 35%;
+	height: 30px;
+	left: 415px;
+	top: 550px;
+	text-indent: 10px;
+	border-radius: 5px;
+	border-style: ridge;
+}
+
+textarea#userComment {
+	position: relative;
+	width: 35%;
+	height: 60px;
+	right: 40px;
+	top: 640px;
+	text-indent: 10px;
+	line-height: 15px;
+	border-radius: 5px;
+	border-style: ridge;
+
+}
+
+input#userPic {
+	position: relative;
+	width: 35%;
+	height: 30px;
+	left: 415px;
+	top: 640px;
+	text-indent: 10px;
+	border-radius: 5px;
+	border-style: ridge;
+}
+
+button {
+	position: relative;
+	top: 700px;
+	width: 35%;
+	right: 38px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border-style: ridge;
+	background-color: #d9534f;
+	color: white;
+}
+
+button:hover {
+	background-color: #c30202;
+}
+
+button:active {
+	background-color: #a00000;
+}
+
+ul#list {
+	position: relative;
+	text-align: left;
+	top: 800px;
+	left: 430px;
+	list-style: none;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p#dateTime {
+	position: relative;
+	text-align: center;
+	top: 850px;
+	list-style: none;
+	font-weight: normal;
+}
+
+#img0 {
+	position: relative;
+	z-index: -1;
+	top: 900px;
+	left: 490px;
+}
+
+div.box {
+	position: absolute;
+	padding-top: 40px;
+	background-color: #f5f5f5;
+	z-index: -1; 
+	top: 130px;
+	left: 385px;
+	width: 40%;
+	height: 300px;
+	border-radius: 15px;
+}
+
+
+

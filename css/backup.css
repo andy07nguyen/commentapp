@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #18ac8e;
+/*	margin-top: -415px;
+*/}
+
+h1.appName {
+	position: relative;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;	
+	top: 570px;
+}
+
+input#userInfo {
+	position: relative;
+	width: 35%;
+	height: 30px;
+	left: 415px;
+	top: 550px;
+	text-indent: 10px;
+	border-radius: 5px;
+}
+
+textarea#userComment {
+	position: relative;
+	width: 35%;
+	height: 60px;
+	right: 35px;
+	top: 640px;
+	text-indent: 10px;
+	line-height: 15px;
+	border-radius: 5px;
+}
+
+input#userPic {
+	position: relative;
+	width: 35%;
+	height: 30px;
+	left: 415px;
+	top: 640px;
+	text-indent: 10px;
+	border-radius: 5px;
+}
+
+button {
+	position: relative;
+	top: 700px;
+	width: 35%;
+	right: 35px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #d9534f;
+	color: white;
+}
+
+ul#list {
+	position: relative;
+	text-align: left;
+	top: 330px;
+	left: 430px;
+	list-style: none;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p#dateTime {
+	position: relative;
+	text-align: center;
+	top: 360px;
+	/*left: 430px;*/
+	list-style: none;
+	font-weight: normal;
+}
+
+div#img0 {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	left: 440px;
+	top: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
